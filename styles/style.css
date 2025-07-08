@@ -282,3 +282,47 @@ main{
     justify-content: center;
     margin-bottom: 113px;
 }
+/*Footer Section*/
+.foot-container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 230px ;
+    gap: 117px;
+}
+
+.links{
+    padding: 230px;
+    padding-top: 130px;
+    text-align: start;
+}
+.links img{
+    margin-right: 10px;
+}
+.des{
+    width: 562px;
+    height: 56px;
+    /* padding: 200px; */
+    padding-left: 330px;
+}
+
+.first{
+    margin-left: 320px;
+}
+
+.form-div{
+    padding: 230px;
+    padding-top: 130px;
+}
+.form-div input{
+    display: block;
+}
+
+.form-div input[type="text"] ,.form-div input[type="email"] {
+    width: 464px;
+    height: 34px;
+    border-radius: 5px; 
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    padding: 18px 18px 18px 30px;
+}
