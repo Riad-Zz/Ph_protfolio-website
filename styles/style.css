@@ -251,3 +251,34 @@ main{
     font-size: 18px;
     font-weight: normal;
 }
+
+.Dev-Skill{
+    margin-bottom: 130px;
+}
+.exp-container{
+    display: flex;
+    gap: 71px;
+}
+.sub{
+    font-weight: 700;
+    font-size: 25px;
+}
+.inst{
+    font-weight: 600;
+    font-size: 20px;
+}
+.res-title{
+    font-weight: 700;
+    font-size: 35px;
+}
+.inst-descr{
+    margin-bottom: 30px;
+}
+.dev-resume{
+    margin-bottom: 50px;
+}
+.dcv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 113px;
+}
