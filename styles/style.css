@@ -1,0 +1,73 @@
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* Common Style */
+.dark-1{
+    color: #181818;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.orange-color{
+    color: #FD6E0A;
+}
+
+.button-style{
+    background-color: #FD6E0A;
+}
+
+/* navigation bar design */
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    display: flex;
+}
+
+nav h3{
+    padding-left: 226px;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    justify-content: space-around;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn-1{
+    height: 64px;
+    width:150px ;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 230px;
+}
+
+.info-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
