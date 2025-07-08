@@ -25,6 +25,9 @@
     background-color: #FFF8F3;
 }
 
+.text-center{
+    text-align: center;
+}
 
 .button-style{
     background-color: #FD6E0A;
@@ -196,4 +199,55 @@ main{
 .ans{
     font-size: 20px;
     font-weight: bold;
+}
+
+/*Experrience section*/
+.Dev-Experience{
+    margin-top: 130px;
+}
+
+.do-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+/*Skill SEction*/
+.card-container{
+    display: flex;
+    gap: 24px;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 33px;
+    text-align: center;
+    border: none;
+    width: 267px;
+    /* height: 377px; */
+    border: 1px solid #FD6E0A;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px #caa052;
+    transition: transform 0.3s ease;
+    /* margin-bottom: 130px; */
+}
+.card:hover{
+    transform: scale(1.10);
+    box-shadow:5px 5px 30px #ce962e ;
+}
+
+.skill-name{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.skill-description{
+    font-size: 18px;
+    font-weight: normal;
 }
