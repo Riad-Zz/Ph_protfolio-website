@@ -285,34 +285,32 @@ main{
 /*Footer Section*/
 .foot-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-right: 230px ;
+    padding-left: 230px;
+    padding-top: 130px;
     gap: 117px;
 }
 
 .links{
-    padding: 230px;
+    /* padding: 230px;
     padding-top: 130px;
-    text-align: start;
+    text-align: start; */
+    /* display: flex; */
+    justify-content: center;
 }
 .links img{
     margin-right: 10px;
 }
-.des{
-    width: 562px;
-    height: 56px;
-    /* padding: 200px; */
-    padding-left: 330px;
-}
+ .des{
+    padding-left: 285px;
+} 
 
 .first{
-    margin-left: 320px;
+    margin-left: 280px;
 }
 
-.form-div{
-    padding: 230px;
-    padding-top: 130px;
-}
+
 .form-div input{
     display: block;
 }
@@ -326,3 +324,4 @@ main{
     margin-bottom: 24px;
     padding: 18px 18px 18px 30px;
 }
+
